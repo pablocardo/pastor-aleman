@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+}
+.contenedor-titulo{ 
+background-color: rgba(251, 251, 251, 0.1); font-family: ;
+color: whitesmoke;
+font-size: 60px;
+position: relative;
+top: 60px ;
+width: 100%;
+float: left;
+
+}
+
+
+
+    
+
+#fondo { 
+    background-image: url(../images/pastor\ aleman\ 1.jpg);
+    background-repeat: no-repeat; 
+    background-size:cover;   
+    background-position: center;
+    height: 100vh;
+    padding-left: 4%;
+    padding-top: 4%;
+}
+
+#titulo{
+    color: white;
+    display:flex;
+    width: 100%;
+
+    
+}
+#titulo h2{
+    float:left;
+}
+.contenedor-nav{
+    width: 100%;
+    margin: auto;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;  
+}
+
+#cabeza{
+    color: white;
+    display: flex;
+    position: static;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    background-color: rgba(149, 164, 165, 0.5);
+    padding: 5px;
+}
+#cabeza h1{
+    float: left;
+
+}
+
+.menu{
+    float:right;
+    margin-top: 10px;
+    display: block;
+}
+.menu li:{
+    list-style: none;
+    float: left;
+    margin: 5px;
+    
+
+}
+.menu li:hover ul{
+    display: none;
+    position: absolute;
+}
+
+li ul li{
+    height: -145;
+    top: 0px;
+    padding: 10px;
+}
+
+.menu a{
+    color: white;
+    text-align:none;
+    padding: 5px 10px;
+
+}
+.menu a:hover{
+    background-color: rgba(251, 251, 251,0.5
+    );
+}
+
+.contenedor-principal{
+    color: white;
+    text-decoration: none;
+    width: 10%;
+    padding: 5px 10px;
+    margin-top: 30px;
+}
+
+#principal{
+    color: white;
+    margin: auto;
+    position: relative;
+    padding: 10px;
+    top: 55%;
+
+}
+ main{
+     margin-top: 20px;
+     margin: 0 auto;
+ }
+table img{
+    width:400px ;
+    height:200px;
+}
